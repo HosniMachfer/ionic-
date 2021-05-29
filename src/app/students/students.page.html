@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>students</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-navbar></app-navbar>
+<div *ngFor="let obj of studentsData">
+  
+  
+
+    <ion-card [ngStyle]="{'background-color':obj.country === 'USA' ? '#90EE90' : '#d9d9d9' }" >
+      <ion-card-header> Contact </ion-card-header>
+        <ion-card-content>
+          <p>Name : <strong>{{obj.name}}</strong></p>
+          <p>Email : <strong>{{obj.email}}</strong></p>
+          <p>Country : <strong>{{obj.country}}</strong></p>
+          <img src ="{{obj.photo}}">
+        </ion-card-content>
+      </ion-card>
+      
+
+    
+</div> 
+</ion-content>

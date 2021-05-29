@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>about</ion-title>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content>
+  <app-navbar></app-navbar>
+  <ion-card>
+    <ion-card-header> Contact </ion-card-header>
+
+    <ion-card-content>
+      <p>Name : <strong>{{contact.name}}</strong></p>
+      <p>Email : <strong>{{contact.email}}</strong></p>
+      <img src ="{{contact.photo}}">
+    </ion-card-content>
+
+  </ion-card>
+  <ion-button [routerLink]="['/home']" >Home</ion-button>
+  
+</ion-content>

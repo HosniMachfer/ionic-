@@ -1,0 +1,64 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Will Smith",
+      "email": "email@email.com",
+      "country": "USA",
+      "photo": "assets/icon/logo.png"
+    },
+    {
+      "id": 2,
+      "name": "Jackline Joy",
+      "email": "email@email.com",
+      "country": "France",
+      "photo": "assets/icon/logo.png"
+    },
+    {
+      "id": 3,
+      "name": "Alu Arjun",
+      "email": "email@email.com",
+      "country": "India",
+      "photo": "assets/icon/logo.png"
+    },
+    {
+      "id": 4,
+      "name": "Kavitha Kumar",
+      "email": "email@email.com",
+      "country": "Germany",
+      "photo": "assets/icon/logo.png"
+    },
+    {
+      "id": 5,
+      "name": "John Snow",
+      "email": "email@email.com",
+      "country": "United Kingdom",
+      "photo": "assets/icon/logo.png"
+    },
+    {
+      "id": 6,
+      "name": "Priya Dutt",
+      "email": "email@email.com",
+      "country": "USA",
+      "photo": "assets/icon/logo.png"
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "name": "test",
+      "email": "tes@hmail",
+      "contry": "tunid",
+      "id": 9
+    },
+    {
+      "name": "azae",
+      "email": "azze@ooo.tt",
+      "contry": "aeze",
+      "id": 10
+    }
+  ]
+}
